@@ -1,0 +1,83 @@
+[0m2021.01.20 17:16:12 INFO  Started: Metals version 0.9.10 in workspace 'C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code' for client vscode 1.52.1.[0m
+[0m2021.01.20 17:16:12 INFO  time: initialize in 0.4s[0m
+[0m2021.01.20 17:16:13 WARN  Build server is not auto-connectable.[0m
+[0m2021.01.20 17:16:13 WARN  no build tool detected in workspace 'C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.01.20 17:16:15 INFO  no build target: using presentation compiler with only scala-library[0m
+[0m2021.01.20 17:16:17 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 17:24:15 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 17:25:09 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 17:25:33 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 17:47:41 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 17:48:37 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+Jan 20, 2021 5:48:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.01.20 17:49:16 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 17:49:41 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 17:49:48 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 17:50:16 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+Jan 20, 2021 5:56:34 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Jan 20, 2021 5:56:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:180)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+[0m2021.01.20 17:57:11 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 17:58:29 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:06:09 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:07:20 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:08:01 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:12:48 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:13:33 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:18:33 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 227, 227, 242)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 227, 227, 235)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 227, 227, 236)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[Int]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 227, 227, 237)
+[0m2021.01.20 18:20:14 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:22:08 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:22:37 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:22:55 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:24:18 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:24:44 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:24:44 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:24:49 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:25:17 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:25:33 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:25:55 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:26:03 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:26:45 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+Jan 20, 2021 6:27:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.01.20 18:27:44 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:27:52 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:28:30 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:29:15 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:29:57 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:30:11 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:32:44 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 242, 242, 257)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 242, 242, 250)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 242, 242, 251)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[Int]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 242, 242, 252)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 244, 244, 259)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 244, 244, 252)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 244, 244, 259)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 244, 244, 252)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[<error>]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 244, 244, 253)
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala in Array[Int]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day1.scala, 244, 244, 254)
+[0m2021.01.20 18:34:10 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:36:09 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:36:22 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:36:37 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 18:37:43 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
