@@ -81,3 +81,7 @@ something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20P
 [0m2021.01.20 18:36:22 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
 [0m2021.01.20 18:36:37 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
 [0m2021.01.20 18:37:43 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+Jan 20, 2021 6:48:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jan 20, 2021 6:51:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
