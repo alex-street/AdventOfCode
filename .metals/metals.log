@@ -1062,3 +1062,9 @@ file%3A%2F%2F%2FC%3A%2FUsers%2FAlexis.Bradstreet%2FOneDrive%2520-%2520West%2520P
 [0m2021.01.21 09:40:16 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day3.scala[0m
 [0m2021.01.21 09:41:06 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day3.scala[0m
 [0m2021.01.21 09:58:53 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day3.scala[0m
+[0m2021.01.21 10:00:01 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day3.scala[0m
+[0m2021.01.21 10:01:16 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day3.scala[0m
+[0m2021.01.21 10:01:21 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day3.scala[0m
+[0m2021.01.21 10:02:08 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day3.scala[0m
+Jan 21, 2021 10:02:17 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
