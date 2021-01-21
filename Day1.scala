@@ -4,7 +4,7 @@ object Day1 extends App {
   val lines = try input.mkString finally input.close()
   val nums = lines.split("\n").map(n => n.toInt)
 
-  //this method returns the product of the two entries that sum to 2020
+  //returns the product of the two entries that sum to 2020
   def part1(arr:Array[Int]):Int = {
     var answer:Int = 0
     for (i <- 0 to arr.length-1) {

@@ -195,3 +195,22 @@ Caused by: java.lang.ClassNotFoundException:
 [0m2021.01.20 19:30:46 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
 [0m2021.01.20 19:31:28 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
 [0m2021.01.20 19:35:25 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 19:38:29 INFO  shutting down Metals[0m
+[0m2021.01.20 19:50:07 INFO  Started: Metals version 0.9.10 in workspace 'C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code' for client vscode 1.52.1.[0m
+[0m2021.01.20 19:50:08 INFO  time: initialize in 0.36s[0m
+[0m2021.01.20 19:50:08 WARN  Build server is not auto-connectable.[0m
+[0m2021.01.20 19:50:08 WARN  no build tool detected in workspace 'C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.01.20 19:50:10 INFO  no build target: using presentation compiler with only scala-library[0m
+[0m2021.01.20 19:50:12 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+Jan 20, 2021 7:50:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Jan 20, 2021 7:50:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jan 20, 2021 7:50:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+[0m2021.01.20 19:50:34 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 19:50:39 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.20 19:50:41 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:54:29 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:54:40 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:56:03 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
