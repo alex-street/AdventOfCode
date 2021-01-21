@@ -214,3 +214,6 @@ WARNING: Unmatched cancel notification for request id 9
 [0m2021.01.20 19:54:29 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
 [0m2021.01.20 19:54:40 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
 [0m2021.01.20 19:56:03 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:56:23 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+Jan 20, 2021 7:56:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
