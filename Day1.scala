@@ -32,5 +32,7 @@ object Day1 extends App {
   }
 
   println(part1(nums))
+  //returns 786811
   println(part2(nums))
+  //returns 199068980
 }

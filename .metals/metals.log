@@ -85,3 +85,113 @@ Jan 20, 2021 6:48:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTraceNotification
 Jan 20, 2021 6:51:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+Jan 20, 2021 6:53:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.01.20 18:55:34 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 18:55:34 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:07:31 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:17:44 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:17:53 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:18:06 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:19:12 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:20:09 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:20:53 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+Jan 20, 2021 7:24:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: 
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: 
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: 
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:107)
+	at scala.Option.fold(Option.scala:251)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:108)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:136)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$5(DebugProvider.scala:335)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+Jan 20, 2021 7:25:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: 
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: 
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: 
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:107)
+	at scala.Option.fold(Option.scala:251)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:108)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:136)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$5(DebugProvider.scala:335)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.01.20 19:26:50 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:27:14 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:27:18 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:27:37 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:29:13 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:30:02 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:30:21 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:30:40 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:30:46 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:31:28 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day2.scala[0m
+[0m2021.01.20 19:35:25 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
