@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Heading Example</title>
+   </head>
+
+   <body>
+     <div id="cool">9,6,0,10,18,2,1</div>
+     <div id="ex">0,3,6</div>
+      <script type="text/javascript">
+        var input = document.getElementById("cool").innerHTML;
+        var nums = input.split(",");
+        nums.forEach((num, i) => {
+          nums[i] = parseInt(num);
+        });
+
+        function play(num, index){
+          if (nums.slice(0, nums.length-1).includes(num)) {
+            diff = index - nums.slice(0, nums.length-1).lastIndexOf(num);
+            nums.push(diff);
+          }
+          else {
+            nums.push(0);
+          }
+        }
+
+        for (var i = nums.length-1; i < 30000000; i++) {
+          play(nums[i],i);
+          console.log("Number " + (i+1) + ": " + nums[i]);
+        }
+
+      </script>
+   </body>
+
+</html>

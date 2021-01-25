@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Heading Example</title>
+   </head>
+
+   <body>
+     <div id="cool"></div>
+     <div id="ex">389125467</div>
+      <script type="text/javascript">
+      let input = document.getElementById("ex").innerHTML;
+      input = Array.from(input);
+      input.forEach((item, i) => {
+        input[i] = parseInt(item);
+      });
+
+      console.log(input);
+      let state = {
+        cups: input,
+        currentIndex: 0,
+        currentLabel: input[0],
+        pickup: input.slice(0,3),
+        lastPickup: [0,0,0],
+        destinationLabel: input[0]-1,
+        destinationIndex: input.indexOf(input[0]-1)
+      }
+
+      function move(state){
+        //makes sure current index isn't at end of array
+        if (state.currentIndex+1==state.cups.length-1) {
+          state.currentIndex = 0;
+        }
+        else {
+          state.currentIndex++;
+        }
+        state.currentLabel = state.cups[state.currentIndex];
+        state.destinationLabel = state.current-1;
+        //checks to see if last pickup includes new destination
+        while (state.lastPickup.includes(state.destination)) {
+          state.destination--;
+          if (state.destinationLabel <= state.cups.min()) {
+            state.destinationLabel = state.cups.max();
+          }
+        }
+        state.destinationIndex = state.cups.indexOf(state.destinationLabel);
+        state.pickup = state.cups.slice(state.currentIndex,state.currentIndex+3);
+        //removes pickup
+        state.cups = state.cups.slice(0, state.currentIndex) + state.cups.slice(state.currentIndex+3);
+
+        state.cups = state.cups.slice(0, state.destinationIndex+1) + state.pickup + state.cups.slice(state.destinationIndex+1);
+
+        state.lastPickup = state.pickup;
+      }
+      move(state);
+      console.log(state);
+
+
+      </script>
+   </body>
+
+</html>

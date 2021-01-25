@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Heading Example</title>
+   </head>
+
+   <body>
+     <div id="cool"></div>
+     <div id="ex">0: 4 1 5
+1: 2 3 | 3 2
+2: 4 4 | 5 5
+3: 4 5 | 5 4
+4: "a"
+5: "b"
+
+ababbb
+bababa
+abbbab
+aaabbb
+aaaabbb</div>
+      <script type="text/javascript">
+      let input = document.getElementById("ex").innerHTML;
+
+      let lines = input.split("\n\n");
+      let rules = lines[0].split("\n");
+      let messages = lines[1].split("\n");
+
+      let possibilities = [];
+
+      rules.forEach((rule, i) => {
+        let num = parseInt(rule.substring(0, 1));
+        let info = "";
+        for (var k = 0; k < rule.substring(3).length; k++) {
+          if (rule.charAt(3+k)!=" ") {
+            info+=rule.charAt(3+k);
+          }
+        }
+        info = info.split("|");
+        rules[i] = [num, info];
+        console.log(rules[i]);
+      });
+
+      function findRule(num){
+        rules.forEach((rule, i) => {
+          if (rule[0] == num) {
+            
+          }
+        });
+
+      }
+
+
+      </script>
+   </body>
+
+</html>

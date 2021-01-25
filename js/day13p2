@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Heading Example</title>
+   </head>
+
+   <body>
+     <div id="cool">1007268
+17,x,x,x,x,x,x,41,x,x,x,x,x,x,x,x,x,937,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,13,x,x,x,x,23,x,x,x,x,x,29,x,397,x,x,x,x,x,37,x,x,x,x,x,x,x,x,x,x,x,x,19</div>
+     <div id="ex">939
+7,13,x,x,59,x,31,19</div>
+      <script type="text/javascript">
+        var nums = document.getElementById("cool").innerHTML;
+        var lines = nums.split("\n");
+        var depart = lines[0];
+        var busList = lines[1];
+        var busIDs = busList.split(",");
+
+        var t = 1000000;
+        var check = false;
+        do {
+          for (var i = 0; i < busIDs.length; i++) {
+            if (busIDs[i]==="x") {
+            }
+            else {
+              if ((t+i)%busID[i]==0) {
+              }
+              else {
+                check = true;
+              }
+            }
+          }
+          t++;
+        } while (true);
+
+      </script>
+   </body>
+
+</html>

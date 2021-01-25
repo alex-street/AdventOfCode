@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Heading Example</title>
+   </head>
+
+   <body>
+     <div id="cool"></div>
+     <div id="ex">.#.
+..#
+###</div>
+      <script type="text/javascript">
+      var input = document.getElementById("ex").innerHTML;
+
+      //1d array
+      var lines = input.split("\n");
+
+      //2d array
+      var items = [];
+      lines.forEach((line, i) => {
+        items[i] = line.split("");
+      });
+
+      //3d array
+      var space = [];
+      space[0] = items;
+
+      var temp = space.slice();
+      function checkNeighbors(x,y,z){
+        var state = space[z][y][x];
+        var count = 0;
+        console.log(state);
+        for (var i = z-1; i < z+1; i++) {
+          if (i==-1) {
+          }
+          else {
+            for (var j = x-1; j < x+2; j++) {
+              if (j<=-1 || j>=space[0][0].length) {
+              }
+              else {
+                for (var k = y-1; k < y+2; k++) {
+                  if (k<=-1 || k>=space[0].length) {
+                  }
+                  else if (i == z && j == x && k == y) {
+                  }
+                  else {
+                    var neighbor = space[i][k][j];
+                    //console.log(neighbor);
+                    if (neighbor === "#") {
+                      count++;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        if (state === "#") {
+          if (count == 2 || count == 3) {
+            //remains active
+          }
+          else {
+            //becomes inactive
+            temp[z][y][x] = ".";
+          }
+        }
+        else {
+          if (count == 3) {
+            //becomes active
+            temp[z][y][x] = "#";
+          }
+          else {
+            //remains inactive
+          }
+        }
+      }
+      console.log(space);
+      space.forEach((zPlanes, a) => {
+        zPlanes.forEach((yPlanes, b) => {
+          yPlanes.forEach((xPlanes, c) => {
+            checkNeighbors(c, b, a);
+          });
+
+        });
+
+      });
+
+      console.log(temp);
+
+      </script>
+   </body>
+
+</html>
