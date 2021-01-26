@@ -4,11 +4,12 @@ object Day1 extends App {
   val lines = try input.mkString finally input.close()
   val passes = lines.split("\n")
 
-//returns the the highest seat ID on a boarding pass
+  var ids:Array[Int] = Array()
+
+//returns the highest seat ID on a boarding pass
   def part1(arr:Array[String]):Int = {
     var answer:Int = 0
     var id = 0
-    var ids:Array[Int] = Array()
     for (i <- 0 to arr.length-1) {
       var max = 127.0
       var min = 0.0
@@ -56,10 +57,23 @@ object Day1 extends App {
       id = (number*8 +col).toInt
       ids = ids :+ id
     }
-    ids.sorted
-    ids(0)
+    ids = ids.sorted
+    ids(ids.length-1)
   }
 
-  println(part1(passes))
+  //returns ID of the seat
+  def part2(arr:Array[Int]):Int = {
+    var id = 0
+    for (i <- 0 to 996) {
+       if (!ids.contains(i)) {
+         id = i
+       }
+     }
+     id
+  }
 
+println(part1(passes))
+//returns 996
+println(part2(ids))
+//returns 671
 }
