@@ -18,9 +18,9 @@ object Day4 extends App {
   //returns number of valid passwords
   def part2(arr:Array[String]):Int = {
     var valid:Int = 0
-    var good = 0
     for (i <- 0 to arr.length-1) {
       val passport = arr(i).split(" |\n")
+      var good = 0
       for (field <- passport) {
         val key = field.split(":")(0)
         val value = field.split(":")(1)
@@ -45,13 +45,13 @@ object Day4 extends App {
         else if (key == "hgt") {
           if (value.contains("cm")) {
             val height = value.substring(0,value.indexOf("cm")).toInt
-            if (height >= 150 && height <= 2030) {
+            if (height >= 150 && height <= 193) {
               good+=1
             }
           }
           if (value.contains("in")) {
             val height = value.substring(0,value.indexOf("in")).toInt
-            if (height >= 150 && height <= 2030) {
+            if (height >= 59 && height <= 76) {
               good+=1
             }
           }
@@ -59,7 +59,7 @@ object Day4 extends App {
         else if (key == "hcl") {
           val color = value
           val characters:Array[Char] = Array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f')
-          if (color(0).toString == "#" && color.length == 7) {
+          if (color(0) == '#' && color.length == 7) {
             var validChars = 0
             for (ch <- color.substring(1)) {
               if (characters.contains(ch)) {
@@ -86,7 +86,6 @@ object Day4 extends App {
       }
       if (good == 7) {
         valid+=1
-                for (field <- passport) println(field)
       }
     }
     valid
@@ -95,5 +94,5 @@ object Day4 extends App {
   println(part1(passports))
   //returns 192
   println(part2(passports))
-  //returns
+  //returns 101
 }
