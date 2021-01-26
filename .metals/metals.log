@@ -6525,3 +6525,27 @@ something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20P
 [0m2021.01.25 20:14:54 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day5.scala[0m
 [0m2021.01.25 20:15:09 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day5.scala[0m
 [0m2021.01.25 20:15:42 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day5.scala[0m
+[0m2021.01.25 20:22:37 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day1.scala[0m
+[0m2021.01.25 20:22:50 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day10.scala[0m
+[0m2021.01.25 20:22:50 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day10.scala[0m
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day10.scala in Array[Int]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day10.scala, 363, 363, 373)
+[0m2021.01.25 20:25:54 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day10.scala[0m
+something's wrong: no file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day10.scala in Array[Int]RangePosition(file:///C:/Users/Alexis.Bradstreet/OneDrive%20-%20West%20Point/Academic%20Classes%20(2021-22)%20Term%202/CS384/Advent%20of%20Code/Day10.scala, 266, 266, 276)
+Jan 25, 2021 8:32:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.$anonfun$baseParams$1(ArgCompletions.scala:26)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams$lzycompute(ArgCompletions.scala:26)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams(ArgCompletions.scala:22)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams$lzycompute(ArgCompletions.scala:40)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams(ArgCompletions.scala:39)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params$lzycompute(ArgCompletions.scala:46)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params(ArgCompletions.scala:45)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.contribute(ArgCompletions.scala:157)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:389)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:468)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+[0m2021.01.25 20:33:12 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day10.scala[0m
+[0m2021.01.25 20:34:04 WARN  no build target for: C:\Users\Alexis.Bradstreet\OneDrive - West Point\Academic Classes (2021-22) Term 2\CS384\Advent of Code\Day10.scala[0m
